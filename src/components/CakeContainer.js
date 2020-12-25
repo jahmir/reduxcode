@@ -21,7 +21,7 @@ const mapStateToProps = state => {
 //step 2
 const mapDispatchToProps = dispatch => {
     return {
-        buyCake: () => dispatch(buyCake())
+        buyCake: () => dispatch(buyCake(1))
     }
 }
 
